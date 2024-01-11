@@ -1,0 +1,82 @@
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+body {
+    height: 2300px;
+}
+
+header {
+    position: absolute;
+    width: 100%;
+}
+
+nav {
+    position: relative;
+    z-index: 2;
+}
+
+h1 {
+    font-size: 75px;
+    text-transform: uppercase;
+    color: gainsboro;
+    margin-top: 500px;
+    margin-bottom: 200px;
+    position: relative;
+    z-index: 1;
+    
+ }
+
+.bg-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    filter: brightness(0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+
+.container2 {
+    margin-top: 150px;
+    margin-left: 50px;
+    padding: 10px;
+    
+}
+
+article {
+    display: block;
+    margin-top: 100px;
+}
+
+.column {
+    column-count: 1;
+    column-gap: 30px;
+    text-align: justify;
+}
+
+footer {
+    background-color: white;
+    margin-top: auto;
+    margin-bottom: 10px;
+
+
+}
+
+p {
+    text-align: center;
+}
+
+small {
+    text-align: center;
+    margin-left: 580px;
+}
+
+.footer-icons {
+    margin-left: 680px;
+    margin-top: 20px;
+}

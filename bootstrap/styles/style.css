@@ -1,4 +1,71 @@
+
+
 section {
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+body {
+    height: 1450px;
+}
+
+header {
+    position: absolute;
+    width: 100%;
+}
+
+nav {
+    position: relative;
+    z-index: 2;
+}
+
+h1 {
+    font-size: 75px;
+    text-transform: uppercase;
+    color: gainsboro;
+    margin-top: 80px;
+
+    position: relative;
+    z-index: 1;
+    
+ }
+
+.bg-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    filter: brightness(0.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+
+.container2 {
+    margin-top: 350px;
+    margin-left: 50px;
+    padding: 10px;
+}
+
+footer {
+    background-color: white;
+    margin-top: auto;
+
+
+}
+
+p {
+    text-align: center;
+}
+
+small {
+    text-align: center;
+    margin-left: 580px;
+}
+
+.footer-icons {
+    margin-left: 680px;
+    margin-top: 20px;
 }
